@@ -46,9 +46,9 @@ namespace Croc.TestDrive.TgChatBot
 			Console.WriteLine($"[{DateTime.Now:hh:mm:ss}] {chatId}/{firstName}: {messageText}");
 			if (message.Text == "/start")
 			{
-				Message sentMessage = await telegramBot.SendTextMessageAsync(
+				Message _ = await telegramBot.SendTextMessageAsync(
 					chatId: chatId,
-					text: $"Привет {firstName}. Я полезный бот, чем могу помочь?",
+					text: $"Привет, {firstName}. Я полезный бот, чем могу помочь?",
 					replyMarkup: mainMenu,
 					cancellationToken: cancellationToken
 				);
