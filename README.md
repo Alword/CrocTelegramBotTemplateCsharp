@@ -12,7 +12,7 @@ git clone https://github.com/Alword/CrocTelegramBotTemplateCsharp.git
 ## Получение токена:
 1. Перейти в официального бота BotFather - https://telegram.me/BotFather
 2. Выбрать /start, а затем /newbot
-3. Задать имя (CrocTestDrive2023<НомерКоманды>) и адрес (CrocTestDrive2023<НомерКоманды>_bot)
+3. Задать имя **CrocTestDrive2023<НомерКоманды>** и адрес **CrocTestDrive2023<НомерКоманды>_bot**
 
 ## Подключение бота и запуск:
 1. Вставить значение TOKEN полученный от [BotFather](https://telegram.me/BotFather) в Program.cs
